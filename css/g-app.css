@@ -1,8 +1,14 @@
+@font-face {
+    font-family: Fabfelt;
+    src: url(../fonts/FabfeltScript-Bold.otf);
+}
+
 html,body{
     width:  100%;
     height: 100%;
     color:white;
 }
+
 .header {
     height: 100%;
     width: 100%;
@@ -21,7 +27,7 @@ html,body{
     left: 0;
 }
 
-.header .logo{
+.logo{
     text-align: center;
     padding-top:30px;
 }
@@ -46,4 +52,50 @@ html,body{
     right: 120px;
     top: 30px;
     background: url("../img/h-phone.png");
+}
+
+.caption{
+    font-family: Fabfelt;
+    font-size: 40px;
+    line-height: 40px;
+    color: #98f2fd;
+}
+
+.header .caption{
+    margin-bottom:20px;
+}
+
+/* features */
+
+.features{
+    height: 100%;
+    width: 100%;
+    background: #222325;
+}
+.features .lines{
+    font-size:30px;
+    letter-spacing: 2px;
+    color: #98f2fd;
+}
+
+.features .hint{
+    font-size: 18px;
+}
+
+.features .phone{
+    text-align: center;
+}
+
+.features .top{
+    margin-bottom: 20px;
+}
+
+.features .advice >div{
+    display:block;
+}
+.features .advice .topic{
+    color: #98f2fd;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
 }
